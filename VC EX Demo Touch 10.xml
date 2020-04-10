@@ -1,0 +1,220 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>panel_1</PanelId>
+    <Origin>local</Origin>
+    <Type>Statusbar</Type>
+    <Icon>Language</Icon>
+    <Color>#A866FF</Color>
+    <Name>VC Demo EX</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Local Side</Name>
+      <Row>
+        <Name>Layout Equal</Name>
+        <Widget>
+          <WidgetId>local_equal</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Quad</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>P60</Name>
+            </Value>
+            <Value>
+              <Key>3</Key>
+              <Name>Quad &amp; P60</Name>
+            </Value>
+            <Value>
+              <Key>4</Key>
+              <Name>Quad &amp; P60 No Sptk</Name>
+            </Value>
+            <Value>
+              <Key>5</Key>
+              <Name>2X2: 2-Quad &amp; 2-P60</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Layout Prominent</Name>
+        <Widget>
+          <WidgetId>local_prominent</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Quad &amp; P60</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>Quad &amp; 2-P60</Name>
+            </Value>
+            <Value>
+              <Key>3</Key>
+              <Name>Quad &amp; 6-P60</Name>
+            </Value>
+            <Value>
+              <Key>4</Key>
+              <Name>P60 &amp; 6-Quad</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Swap Outputs</Name>
+        <Widget>
+          <WidgetId>widget_4</WidgetId>
+          <Name>1--&gt;2</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=right</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>sw_on_off</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_3</WidgetId>
+          <Name>2--&gt;1</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=left</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_5</WidgetId>
+          <Type>Spacer</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>VC Off</Name>
+        <Widget>
+          <WidgetId>local_vc_off</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Yes</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>No</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>Far End</Name>
+      <Row>
+        <Name>Layout Equal</Name>
+        <Widget>
+          <WidgetId>fr_equal</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Quad</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>P60</Name>
+            </Value>
+            <Value>
+              <Key>3</Key>
+              <Name>Quad &amp; P60</Name>
+            </Value>
+            <Value>
+              <Key>4</Key>
+              <Name>3 Scr: Quad &amp; 2-P60</Name>
+            </Value>
+            <Value>
+              <Key>5</Key>
+              <Name>2x2: 2-Quad &amp; 2- P60</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Layout PIP </Name>
+        <Widget>
+          <WidgetId>fr_pip</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Quad &amp; P60 Auto LR</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>P60 &amp; Quad Auto LR</Name>
+            </Value>
+            <Value>
+              <Key>3</Key>
+              <Name>Quad &amp; P60 Large LR</Name>
+            </Value>
+            <Value>
+              <Key>4</Key>
+              <Name>P60 &amp; Quad Large LR</Name>
+            </Value>
+            <Value>
+              <Key>5</Key>
+              <Name>Quad &amp; P60 Auto UL</Name>
+            </Value>
+            <Value>
+              <Key>6</Key>
+              <Name>P60 &amp; Quad LG UR</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Layout Prominent</Name>
+        <Widget>
+          <WidgetId>fr_prom</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Quad &amp; P60</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>P60 &amp; Quad</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>VC Off</Name>
+        <Widget>
+          <WidgetId>fr_vc_off</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>1</Key>
+              <Name>Yes</Name>
+            </Value>
+            <Value>
+              <Key>2</Key>
+              <Name>No</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
